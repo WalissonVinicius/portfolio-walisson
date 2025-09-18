@@ -13,15 +13,18 @@ Portfólio pessoal moderno e responsivo desenvolvido com as mais recentes tecnol
 - 🎨 **Design Moderno**: Interface limpa com glass morphism e gradientes
 - 🌙 **Tema Escuro/Claro**: Alternância entre temas com persistência
 - 📱 **Totalmente Responsivo**: Otimizado para todos os dispositivos
-- ⚡ **Performance Otimizada**: Carregamento rápido e SEO otimizado
+- ⚡ **Performance Otimizada**: SPA com navegação por âncoras
 - 🎭 **Animações Suaves**: Transições e micro-interações com Framer Motion
-- 📧 **Formulário de Contato**: Sistema de contato integrado
+- 📧 **Formulário de Contato**: Sistema de contato via mailto
 - 🔗 **Links Sociais**: Integração com GitHub, LinkedIn e WhatsApp
 - 📄 **Download de CV**: Currículo disponível para download
+- 🎓 **Formação Acadêmica**: Destaque para ADS (Análise e Desenvolvimento de Sistemas)
+- 🧭 **Navegação Fluida**: Scroll suave entre seções com âncoras
 
 ## 🛠️ Tecnologias Utilizadas
 
 ### Frontend
+
 - **Next.js 15** - Framework React para produção
 - **TypeScript** - Tipagem estática para JavaScript
 - **Tailwind CSS** - Framework CSS utilitário
@@ -30,6 +33,7 @@ Portfólio pessoal moderno e responsivo desenvolvido com as mais recentes tecnol
 - **React Icons** - Ícones de tecnologias
 
 ### Ferramentas de Desenvolvimento
+
 - **ESLint** - Linting de código
 - **PostCSS** - Processamento de CSS
 - **Radix UI** - Componentes acessíveis
@@ -37,6 +41,7 @@ Portfólio pessoal moderno e responsivo desenvolvido com as mais recentes tecnol
 ## 🚀 Como Executar
 
 ### Pré-requisitos
+
 - Node.js 18+ instalado
 - npm ou yarn
 
@@ -72,51 +77,59 @@ npm run lint     # Executa linting do código
 ```
 src/
 ├── app/                 # App Router do Next.js
-│   ├── contato/        # Página de contato
-│   ├── projetos/       # Página de projetos
-│   ├── sobre/          # Página sobre
-│   └── layout.tsx      # Layout principal
+│   ├── globals.css     # Estilos globais
+│   ├── icon.tsx        # Favicon dinâmico
+│   ├── layout.tsx      # Layout principal
+│   └── page.tsx        # Página única (SPA)
 ├── components/         # Componentes React
 │   ├── ui/            # Componentes de UI base
-│   ├── hero-section.tsx
-│   ├── about-section.tsx
-│   ├── projects-section.tsx
-│   ├── experience-section.tsx
-│   └── contact-section.tsx
+│   ├── hero-section.tsx        # Seção inicial
+│   ├── about-section.tsx       # Sobre + Formação
+│   ├── experience-section.tsx  # Experiências
+│   ├── projects-section.tsx    # Projetos
+│   ├── contact-section.tsx     # Contato
+│   ├── navigation.tsx          # Navegação por âncoras
+│   └── tech-icons.tsx          # Ícones de tecnologias
 └── data/
     └── profile.json    # Dados do perfil
 ```
 
 ## 🎨 Seções do Portfólio
 
-### 🏠 Hero Section
+### 🏠 Hero Section (#home)
 - Apresentação pessoal
-- Skills principais
-- Links para redes sociais
+- Skills principais (6 tecnologias core)
+- Links para redes sociais funcionais
 - Botão de download do CV
+- Elementos visuais animados
 
-### 👨‍💻 Sobre Mim
+### 👨‍💻 Sobre Mim (#about)
 - Biografia profissional
+- **Formação Acadêmica**: Tecnólogo em ADS
 - Stack de tecnologias organizadas por categoria
 - Ícones SVG autênticos das tecnologias
+- 5 categorias: Frontend, Backend, Database, DevOps, AI
 
-### 💼 Experiência Profissional
-- Histórico de trabalho
+### 💼 Experiência Profissional (#experience)
+- Histórico de trabalho atualizado
 - Descrição detalhada de cada posição
-- Tecnologias utilizadas
-- Principais conquistas
+- Tecnologias utilizadas por empresa
+- Principais conquistas e responsabilidades
 
-### 🚀 Projetos
-- Portfólio de projetos desenvolvidos
-- Filtros por tecnologia
+### 🚀 Projetos (#projects)
+- Portfólio de 8 projetos desenvolvidos
+- Filtros por tecnologia funcionais
+- Imagens de preview dos projetos
 - Links para demo e código fonte
-- Status dos projetos (Online/Offline)
+- Status "Online" para todos os projetos
+- Botão WhatsApp para contato
 
-### 📞 Contato
-- Formulário de contato
-- Informações de contato
+### 📞 Contato (#contact)
+- Formulário de contato funcional (mailto)
+- Informações de contato diretas
 - Links para redes sociais
-- Integração com WhatsApp
+- Integração completa com WhatsApp
+- Resposta rápida garantida
 
 ## 🌟 Destaques Técnicos
 
@@ -130,6 +143,7 @@ src/
 ## 📱 Responsividade
 
 O portfólio é totalmente responsivo e otimizado para:
+
 - 📱 **Mobile**: 320px - 768px
 - 📟 **Tablet**: 768px - 1024px
 - 💻 **Desktop**: 1024px+
@@ -151,6 +165,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 **Walisson Vinicius**
+
 - 🌐 Website: [walisson.dev](https://walisson.dev)
 - 💼 LinkedIn: [walisson-vinicius](https://linkedin.com/in/walisson-vinicius-952abb205)
 - 🐱 GitHub: [WalissonVinicius](https://github.com/WalissonVinicius)
@@ -167,6 +182,7 @@ Um portfólio moderno e altamente animado construído com Next.js 14, TypeScript
 ## ✨ Características
 
 ### 🎨 Design & UX
+
 - **Glassmorphism**: Efeitos de vidro fosco modernos
 - **Gradientes Dinâmicos**: Paleta de cores vibrante com gradientes animados
 - **Modo Claro/Escuro**: Alternância suave entre temas
@@ -174,6 +190,7 @@ Um portfólio moderno e altamente animado construído com Next.js 14, TypeScript
 - **Microinterações**: Animações sutis e envolventes
 
 ### 🔧 Tecnologias
+
 - **Next.js 14**: App Router, Server Components
 - **TypeScript**: Tipagem estática para maior confiabilidade
 - **Tailwind CSS**: Estilização utilitária e responsiva
@@ -182,6 +199,7 @@ Um portfólio moderno e altamente animado construído com Next.js 14, TypeScript
 - **Lucide React**: Ícones modernos e consistentes
 
 ### 🎯 Funcionalidades
+
 - **Navegação Fluida**: Menu responsivo com animações
 - **Seção Hero**: Apresentação impactante com efeitos visuais
 - **Portfólio Interativo**: Cards de projetos com filtros por tecnologia
@@ -192,18 +210,21 @@ Um portfólio moderno e altamente animado construído com Next.js 14, TypeScript
 ## 🚀 Instalação e Execução
 
 ### Pré-requisitos
-- Node.js 18+ 
+
+- Node.js 18+
 - npm ou yarn
 
 ### Passos para Instalação
 
 1. **Clone o repositório**
+
 ```bash
 git clone https://github.com/WalissonVinicius/walisson-portfolio.git
 cd walisson-portfolio
 ```
 
 2. **Instale as dependências**
+
 ```bash
 npm install
 # ou
@@ -211,6 +232,7 @@ yarn install
 ```
 
 3. **Execute o projeto em desenvolvimento**
+
 ```bash
 npm run dev
 # ou
@@ -218,6 +240,7 @@ yarn dev
 ```
 
 4. **Acesse no navegador**
+
 ```
 http://localhost:3000
 ```
@@ -251,6 +274,7 @@ walisson-portfolio/
 ## 🎨 Conceito Visual
 
 ### Tema: "Neon Glassmorphism"
+
 O portfólio utiliza uma abordagem visual moderna combinando:
 
 - **Glassmorphism**: Elementos com transparência e blur
@@ -259,6 +283,7 @@ O portfólio utiliza uma abordagem visual moderna combinando:
 - **Tipografia Moderna**: Hierarquia clara e legibilidade otimizada
 
 ### Paleta de Cores
+
 ```css
 /* Gradientes Principais */
 --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -274,20 +299,26 @@ O portfólio utiliza uma abordagem visual moderna combinando:
 ## 🔧 Customização
 
 ### Modificar Dados do Perfil
+
 Edite o arquivo `data/profile.json` para atualizar:
+
 - Informações pessoais
 - Projetos em destaque
 - Habilidades técnicas
 - Links de contato
 
 ### Personalizar Tema
+
 Modifique as variáveis CSS em `src/app/globals.css`:
+
 - Cores e gradientes
 - Efeitos de vidro
 - Animações personalizadas
 
 ### Adicionar Componentes
+
 Utilize o shadcn/ui CLI para adicionar novos componentes:
+
 ```bash
 npx shadcn@latest add [component-name]
 ```
@@ -295,8 +326,9 @@ npx shadcn@latest add [component-name]
 ## 📱 Responsividade
 
 O portfólio é totalmente responsivo com breakpoints:
+
 - **Mobile**: < 768px
-- **Tablet**: 768px - 1024px  
+- **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
 ## ♿ Acessibilidade
@@ -309,18 +341,21 @@ O portfólio é totalmente responsivo com breakpoints:
 ## 🚀 Deploy
 
 ### Vercel (Recomendado)
+
 ```bash
 npm run build
 npx vercel --prod
 ```
 
 ### Netlify
+
 ```bash
 npm run build
 # Upload da pasta .next para Netlify
 ```
 
 ### Docker
+
 ```dockerfile
 FROM node:18-alpine
 WORKDIR /app
@@ -354,6 +389,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 **Walisson Vinicius**
+
 - GitHub: [@WalissonVinicius](https://github.com/WalissonVinicius)
 - LinkedIn: [Walisson Vinicius](https://www.linkedin.com/in/walisson-vinicius-952abb205/)
 - Email: walissonvinicius10654@gmail.com

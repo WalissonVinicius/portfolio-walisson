@@ -7,10 +7,10 @@ import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 const navItems = [
-  { href: "/", label: "Início", icon: Home },
-  { href: "/sobre", label: "Sobre", icon: User },
-  { href: "/projetos", label: "Projetos", icon: Briefcase },
-  { href: "/contato", label: "Contato", icon: Mail },
+  { href: "#home", label: "Início", icon: Home },
+  { href: "#about", label: "Sobre", icon: User },
+  { href: "#projects", label: "Projetos", icon: Briefcase },
+  { href: "#contact", label: "Contato", icon: Mail },
 ];
 
 export function Navigation() {

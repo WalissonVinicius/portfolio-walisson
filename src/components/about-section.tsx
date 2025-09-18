@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Code2, 
-  Database, 
-  Globe, 
+import {
+  Code2,
+  Database,
+  Globe,
   Smartphone,
   Server,
   GitBranch,
@@ -88,10 +88,33 @@ export function AboutSection() {
           <h2 className="text-4xl font-bold mb-4 gradient-text">
             Sobre Mim
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e experiências digitais excepcionais.
             Com expertise em tecnologias modernas, transformo ideias em realidade através do código.
           </p>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="max-w-2xl mx-auto"
+          >
+            <Card className="glass-morphism border-border/50">
+              <CardContent className="p-6 text-center">
+                <div className="flex items-center justify-center gap-3 mb-4">
+                  <div className="p-2 rounded-lg bg-primary/10 text-primary">
+                    <Code2 className="w-5 h-5" />
+                  </div>
+                  <h3 className="text-lg font-semibold">Formação Acadêmica</h3>
+                </div>
+                <p className="text-muted-foreground">
+                  <strong>Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS)</strong><br/>
+                  FACULDADE FASIPE • Jan 2022 - Jun 2025
+                </p>
+              </CardContent>
+            </Card>
+          </motion.div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -111,7 +134,7 @@ export function AboutSection() {
                     </div>
                     <h3 className="text-xl font-semibold">{stack.category}</h3>
                   </div>
-                  
+
                   <div className="flex flex-wrap gap-2">
                     {stack.technologies.map((tech) => (
                       <motion.div
@@ -119,8 +142,8 @@ export function AboutSection() {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                       >
-                        <Badge 
-                          variant="secondary" 
+                        <Badge
+                          variant="secondary"
                           className="flex items-center gap-2 px-3 py-1 bg-secondary/50 hover:bg-secondary/80 transition-colors cursor-pointer"
                         >
                           <TechIcon name={tech.name} size={16} />
@@ -149,9 +172,9 @@ export function AboutSection() {
                 <h3 className="text-2xl font-bold">Minha Filosofia</h3>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Acredito que a tecnologia deve ser uma ponte entre problemas complexos e soluções elegantes. 
-                Cada linha de código é uma oportunidade de criar algo que impacte positivamente a vida das pessoas. 
-                Estou sempre em busca de aprender novas tecnologias e aprimorar minhas habilidades para entregar 
+                Acredito que a tecnologia deve ser uma ponte entre problemas complexos e soluções elegantes.
+                Cada linha de código é uma oportunidade de criar algo que impacte positivamente a vida das pessoas.
+                Estou sempre em busca de aprender novas tecnologias e aprimorar minhas habilidades para entregar
                 produtos de alta qualidade.
               </p>
             </CardContent>

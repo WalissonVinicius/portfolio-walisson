@@ -11,7 +11,8 @@ import {
   Mail,
   MapPin,
   Code2,
-  Sparkles
+  Sparkles,
+  MessageCircle
 } from "lucide-react";
 import Image from "next/image";
 import profileData from "../../data/profile.json";

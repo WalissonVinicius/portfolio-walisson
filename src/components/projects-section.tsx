@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Filter } from "lucide-react";
+import { ExternalLink, Github, Filter, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import profileData from "../../data/profile.json";
 
@@ -17,21 +17,21 @@ export function ProjectsSection() {
   const [selectedCategory, setSelectedCategory] = useState("Todos");
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
-  const filteredProjects = selectedCategory === "Todos" 
-    ? allProjects 
+  const filteredProjects = selectedCategory === "Todos"
+    ? allProjects
     : allProjects.filter(project => {
-        if (selectedCategory === "Web") {
-          return project.tech.some(tech => 
-            ["Next.js", "React", "HTML", "CSS", "JavaScript", "TypeScript"].includes(tech)
-          );
-        }
-        if (selectedCategory === "Mobile") {
-          return project.tech.some(tech => 
-            ["React Native", "Capacitor"].includes(tech)
-          );
-        }
-        return project.tech.includes(selectedCategory);
-      });
+      if (selectedCategory === "Web") {
+        return project.tech.some(tech =>
+          ["Next.js", "React", "HTML", "CSS", "JavaScript", "TypeScript"].includes(tech)
+        );
+      }
+      if (selectedCategory === "Mobile") {
+        return project.tech.some(tech =>
+          ["React Native", "Capacitor"].includes(tech)
+        );
+      }
+      return project.tech.includes(selectedCategory);
+    });
 
   return (
     <section id="projects" className="py-20 px-4 bg-background/50">
@@ -110,9 +110,9 @@ export function ProjectsSection() {
                     )}
                   </div>
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                    <Button 
-                      size="sm" 
-                      variant="secondary" 
+                    <Button
+                      size="sm"
+                      variant="secondary"
                       className="gap-2"
                       onClick={() => project.liveUrl !== '#' && window.open(project.liveUrl, '_blank')}
                       disabled={project.liveUrl === '#'}
@@ -120,9 +120,9 @@ export function ProjectsSection() {
                       <ExternalLink className="w-4 h-4" />
                       Demo
                     </Button>
-                    <Button 
-                      size="sm" 
-                      variant="outline" 
+                    <Button
+                      size="sm"
+                      variant="outline"
                       className="gap-2"
                       onClick={() => project.githubUrl !== '#' && window.open(project.githubUrl, '_blank')}
                       disabled={project.githubUrl === '#'}
@@ -201,9 +201,13 @@ export function ProjectsSection() {
               <p className="text-muted-foreground mb-6">
                 Estou sempre aberto a novos desafios e oportunidades de criar algo incrível juntos.
               </p>
-              <Button size="lg" className="gap-2">
-                <ExternalLink className="w-4 h-4" />
-                Vamos conversar
+              <Button 
+                size="lg" 
+                className="gap-2"
+                onClick={() => window.open('https://wa.me/5566996822686?text=Olá! Vi seu portfólio e gostaria de conversar sobre uma oportunidade.', '_blank')}
+              >
+                <MessageCircle className="w-4 h-4" />
+                Conversar no WhatsApp
               </Button>
             </CardContent>
           </Card>

@@ -28,8 +28,25 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aqui você pode implementar o envio do formulário
-    console.log("Form submitted:", formData);
+    
+    // Criar link mailto com os dados do formulário
+    const subject = encodeURIComponent(formData.subject || 'Contato via Portfólio');
+    const body = encodeURIComponent(
+      `Nome: ${formData.name}\n\nEmail: ${formData.email}\n\nMensagem:\n${formData.message}`
+    );
+    
+    const mailtoLink = `mailto:walissonvinicius10654@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Abrir cliente de email
+    window.location.href = mailtoLink;
+    
+    // Limpar formulário após envio
+    setFormData({
+      name: "",
+      email: "",
+      subject: "",
+      message: ""
+    });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -167,7 +184,7 @@ export function ContactSection() {
                   </div>
                 </div>
 
-                <div 
+                <div
                   className="flex items-center gap-3 cursor-pointer hover:bg-accent/50 rounded-lg transition-colors"
                   onClick={() => window.open('https://wa.me/5566996822686', '_blank')}
                 >

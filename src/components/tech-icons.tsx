@@ -46,7 +46,7 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   'CSS3': SiCss3,
   'Tailwind CSS': SiTailwindcss,
   'React Native': SiReact,
-  
+
   // Backend
   'Node.js': SiNodedotjs,
   'Ruby': SiRuby,
@@ -54,19 +54,19 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   'Express.js': SiExpress,
   'REST APIs': MdApi,
   'GraphQL': TbBrandGraphql,
-  
+
   // Database
   'PostgreSQL': SiPostgresql,
   'MySQL': SiMysql,
   'MongoDB': SiMongodb,
   'Redis': SiRedis,
-  
+
   // DevOps
   'Docker': SiDocker,
   'Kubernetes': SiKubernetes,
   'GitHub Actions': SiGithubactions,
   'GitLab CI': SiGitlab,
-  
+
   // AI
   'OpenAI': SiOpenai,
   'LLM': FaBrain,
@@ -85,7 +85,7 @@ const colorMap: Record<string, string> = {
   'CSS3': '#1572B6',
   'Tailwind CSS': '#06B6D4',
   'React Native': '#61DAFB',
-  
+
   // Backend
   'Node.js': '#339933',
   'Ruby': '#CC342D',
@@ -93,19 +93,19 @@ const colorMap: Record<string, string> = {
   'Express.js': '#000000',
   'REST APIs': '#FF6B35',
   'GraphQL': '#E10098',
-  
+
   // Database
   'PostgreSQL': '#336791',
   'MySQL': '#4479A1',
   'MongoDB': '#47A248',
   'Redis': '#DC382D',
-  
+
   // DevOps
   'Docker': '#2496ED',
   'Kubernetes': '#326CE5',
   'GitHub Actions': '#2088FF',
   'GitLab CI': '#FC6D26',
-  
+
   // AI
   'OpenAI': '#412991',
   'LLM': '#8B5CF6',
@@ -115,14 +115,14 @@ const colorMap: Record<string, string> = {
 export function TechIcon({ name, size = 24, className = '' }: TechIconProps) {
   const IconComponent = iconMap[name];
   const color = colorMap[name];
-  
+
   if (!IconComponent) {
     return <span className={`text-${size === 24 ? 'xl' : 'lg'} ${className}`}>🔧</span>;
   }
-  
+
   return (
-    <IconComponent 
-      size={size} 
+    <IconComponent
+      size={size}
       color={color}
       className={className}
       title={name}
