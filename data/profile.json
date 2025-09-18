@@ -1,0 +1,268 @@
+{
+  "name": "Walisson Vinicius",
+  "title": "Software Engineer | React | React Native | Next.Js | SQL | Express.js | MongoDB | OpenAI | Prompt Engineer | LLM | JavaScript | TypeScript | Ruby",
+  "bio": "Sou um desenvolvedor FullStack com experiência em construir soluções escaláveis e eficientes, atuando tanto no backend quanto no frontend. Tenho experiência com React, Next.js, Nuxt.js, Vue.js para frontend e TypeScript, Ruby, Python para backend. Trabalho com bancos PostgreSQL, MySQL, MongoDB e Redis. Interesse em explorar Inteligência Artificial e LLMs, curioso em como aplicar IA para aumentar produtividade e criar novas soluções.",
+  "location": "Sinop, Mato Grosso, Brasil",
+  "education": "Bacharelado em Análise de Sistemas de Computação - FACULDADE FASIPE (Jan 2022 - Jun 2025)",
+  "experience": "Desenvolvedor de sistemas na Simplex Soluções Tecnológicas",
+  "email": "walissonvinicius10654@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/walisson-vinicius-952abb205/",
+  "github": "https://github.com/WalissonVinicius",
+  "instagram": "https://www.instagram.com/wv.sccp/",
+  "skills": {
+    "frontend": [
+      {
+        "name": "React",
+        "description": "Interfaces modernas"
+      },
+      {
+        "name": "Next.js",
+        "description": "Framework React"
+      },
+      {
+        "name": "Nuxt.js",
+        "description": "Framework Vue.js"
+      },
+      {
+        "name": "Vue.js",
+        "description": "Framework progressivo"
+      },
+      {
+        "name": "React Native",
+        "description": "Apps multiplataforma"
+      },
+      {
+        "name": "TypeScript",
+        "description": "JavaScript tipado"
+      },
+      {
+        "name": "JavaScript",
+        "description": "Interatividade e DOM"
+      },
+      {
+        "name": "HTML5",
+        "description": "Estruturação semântica"
+      },
+      {
+        "name": "CSS3",
+        "description": "Layouts responsivos"
+      },
+      {
+        "name": "Tailwind CSS",
+        "description": "Framework CSS"
+      }
+    ],
+    "backend": [
+      {
+        "name": "TypeScript",
+        "description": "Backend tipado"
+      },
+      {
+        "name": "Ruby",
+        "description": "Linguagem dinâmica"
+      },
+      {
+        "name": "Python",
+        "description": "Desenvolvimento backend"
+      },
+      {
+        "name": "Node.js",
+        "description": "Runtime JavaScript"
+      },
+      {
+        "name": "Express.js",
+        "description": "Framework Node.js"
+      },
+      {
+        "name": "REST APIs",
+        "description": "APIs RESTful"
+      },
+      {
+        "name": "GraphQL",
+        "description": "Query language"
+      }
+    ],
+    "database": [
+      {
+        "name": "PostgreSQL",
+        "description": "Banco relacional"
+      },
+      {
+        "name": "MySQL",
+        "description": "Banco relacional"
+      },
+      {
+        "name": "MongoDB",
+        "description": "Banco NoSQL"
+      },
+      {
+        "name": "Redis",
+        "description": "Cache em memória"
+      }
+    ],
+    "devops": [
+      {
+        "name": "Docker",
+        "description": "Containerização"
+      },
+      {
+        "name": "Kubernetes",
+        "description": "Orquestração"
+      },
+      {
+        "name": "GitHub Actions",
+        "description": "CI/CD"
+      },
+      {
+        "name": "GitLab CI",
+        "description": "Integração contínua"
+      }
+    ],
+    "ai": [
+      {
+        "name": "OpenAI",
+        "description": "APIs de IA"
+      },
+      {
+        "name": "LLM",
+        "description": "Large Language Models"
+      },
+      {
+        "name": "Prompt Engineering",
+        "description": "Otimização de prompts"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Desenvolvedor de sistemas",
+      "company": "Simplex Soluções Tecnológicas",
+      "location": "Sinop, Mato Grosso, Brasil",
+      "period": "Junho 2025 - Presente",
+      "duration": "4 meses",
+      "type": "Tempo integral",
+      "description": "Desenvolvimento de sistemas e soluções tecnológicas inovadoras para clientes diversos.",
+      "technologies": ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL"]
+    },
+    {
+      "title": "Analista de TI",
+      "company": "Vialog Transportes",
+      "location": "Sinop, Mato Grosso, Brasil",
+      "period": "Fevereiro 2025 - Maio 2025",
+      "duration": "4 meses",
+      "type": "Tempo integral",
+      "description": "Análise e suporte de sistemas de TI para operações de transporte e logística.",
+      "technologies": ["Sistemas de TI", "Suporte Técnico", "Análise de Sistemas"]
+    },
+    {
+      "title": "Desenvolvedor Full Stack Júnior",
+      "company": "Noah Entregas",
+      "location": "Sinop, Mato Grosso, Brasil",
+      "period": "Setembro 2024 - Janeiro 2025",
+      "duration": "5 meses",
+      "type": "Tempo integral",
+      "description": "Desenvolvedor full stack júnior entusiasmado em criar aplicações web e móveis inovadoras. Com experiência em React Native e React, desenvolvo interfaces de usuário interativas e responsivas, sempre focando em proporcionar uma excelente experiência ao usuário. No back-end, utilizo NestJS para construir APIs escaláveis e eficientes, integrando com bancos de dados PostgreSQL para um gerenciamento de dados robusto.",
+      "technologies": ["React Native", "React", "NestJS", "PostgreSQL", "TypeScript"]
+    },
+    {
+      "title": "Técnico de TI",
+      "company": "Kadri #OnLife",
+      "location": "Sinop, Mato Grosso, Brasil",
+      "period": "Novembro 2023 - Agosto 2024",
+      "duration": "10 meses",
+      "type": "Tempo integral",
+      "description": "Suporte técnico e manutenção de sistemas de TI, garantindo o funcionamento adequado da infraestrutura tecnológica.",
+      "technologies": ["Suporte Técnico", "Manutenção de Sistemas", "Infraestrutura de TI"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "cashpilot",
+      "name": "CashPilot",
+      "description": "Controle de finanças pessoais simples: cadastre transações e acompanhe saldo. Vite/TS + Tailwind, backend Supabase.",
+      "tech": ["TypeScript", "Vite", "Tailwind CSS", "Supabase"],
+      "liveUrl": "https://cashpilot.vercel.app",
+      "githubUrl": "https://github.com/WalissonVinicius/cashpilot",
+      "image": "/projects/cashpilot.png",
+      "status": "Online",
+      "featured": true
+    },
+    {
+      "id": "vidaxp",
+      "name": "VidaXP",
+      "description": "App de hábitos gamificados (XP/níveis) feito com React + Vite + Tailwind, empacotado com Capacitor para Android. Backend Supabase.",
+      "tech": ["TypeScript", "React", "Vite", "Tailwind CSS", "Capacitor", "Supabase"],
+      "liveUrl": "https://vidaxp.vercel.app",
+      "githubUrl": "https://github.com/WalissonVinicius/vidaxp",
+      "image": "/projects/vidaxp.png",
+      "status": "Online",
+      "featured": true
+    },
+    {
+      "id": "readup",
+      "name": "ReadUp",
+      "description": "Leitor de light novel com capítulos navegáveis e interface intuitiva.",
+      "tech": ["TypeScript", "React", "Next.js"],
+      "liveUrl": "https://readup.vercel.app",
+      "githubUrl": "https://github.com/WalissonVinicius/readup",
+      "image": "/projects/readup.png",
+      "status": "Online",
+      "featured": true
+    },
+    {
+      "id": "games-links",
+      "name": "Games Links",
+      "description": "Catálogo de jogos on-line com busca e filtros. Feito em Next.js/TypeScript e Tailwind. Conteúdo gerenciado via Sanity.",
+      "tech": ["TypeScript", "Next.js", "Tailwind CSS", "Sanity"],
+      "liveUrl": "https://games-links.vercel.app",
+      "githubUrl": "https://github.com/WalissonVinicius/games-links",
+      "image": "/projects/gamelinks.png",
+      "status": "Online",
+      "featured": true
+    },
+    {
+      "id": "linktree-wv",
+      "name": "Linktree-WV",
+      "description": "Linktree pessoal moderno, animado e responsivo. Vite/TS + Tailwind.",
+      "tech": ["TypeScript", "Vite", "Tailwind CSS"],
+      "liveUrl": "https://linktree-wv.vercel.app",
+      "githubUrl": "https://github.com/WalissonVinicius/linktree-wv",
+      "image": "/projects/linktree.png",
+      "status": "Online",
+      "featured": false
+    },
+    {
+      "id": "disney-plus-landing",
+      "name": "Landing Page Disney+",
+      "description": "Site responsivo inspirado na plataforma Disney+, com foco em experiência de usuário e elementos interativos.",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "liveUrl": "https://landing-page-disney-plus-main.vercel.app/",
+      "githubUrl": "https://github.com/WalissonVinicius/Landing-Page-Disney-Plus-main",
+      "image": "/projects/disney.png",
+      "status": "Online",
+      "featured": false
+    },
+    {
+      "id": "fuoco-degli-dei",
+      "name": "Fuoco Degli Dei",
+      "description": "Site para restaurante italiano com design elegante e funcionalidades de menu interativo.",
+      "tech": ["React", "CSS", "Responsive"],
+      "liveUrl": "https://fuocodeglidei.vercel.app/",
+      "githubUrl": "https://github.com/WalissonVinicius/projeto-fuoco-degli-dei",
+      "image": "/projects/fuoco.png",
+      "status": "Online",
+      "featured": false
+    },
+    {
+      "id": "jogo-memoria",
+      "name": "Jogo da Memória",
+      "description": "Jogo interativo baseado na série Hora de Aventura, desenvolvido com JavaScript para uma experiência divertida.",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "liveUrl": "https://jogo-hora-de-aventuraa-main.vercel.app/",
+      "githubUrl": "https://github.com/WalissonVinicius/jogo_hora_de_aventuraa-main",
+      "image": "/projects/adventuretime.png",
+      "status": "Online",
+      "featured": false
+    }
+  ]
+}
