@@ -34,7 +34,7 @@ interface TechIconProps {
   className?: string;
 }
 
-const iconMap: Record<string, React.ComponentType<any>> = {
+const iconMap: Record<string, React.ComponentType<{ className?: string; size?: number; color?: string; title?: string }>> = {
   // Frontend
   'React': SiReact,
   'Next.js': SiNextdotjs,

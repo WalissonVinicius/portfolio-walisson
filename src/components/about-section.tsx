@@ -7,10 +7,8 @@ import {
   Code2,
   Database,
   Globe,
-  Smartphone,
   Server,
   GitBranch,
-  Palette,
   Zap
 } from "lucide-react";
 import { TechIcon } from "@/components/tech-icons";

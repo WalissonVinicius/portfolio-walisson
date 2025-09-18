@@ -139,7 +139,7 @@ export function ProjectsSection() {
                       {project.name}
                     </CardTitle>
                     <Badge variant="secondary" className="text-xs">
-                      {project.category}
+                      {project.featured ? 'Destaque' : 'Projeto'}
                     </Badge>
                   </div>
                 </CardHeader>
@@ -164,7 +164,7 @@ export function ProjectsSection() {
 
                   <div className="flex items-center justify-between text-xs text-muted-foreground">
                     <span>Status: {project.status}</span>
-                    <span>{project.year}</span>
+                    <span>2024</span>
                   </div>
                 </CardContent>
               </Card>

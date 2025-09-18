@@ -6,6 +6,13 @@ import { Menu, X, Home, User, Briefcase, Mail, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 
+// const navItems = [
+//   { href: "#home", label: "Início", icon: Home },
+//   { href: "#about", label: "Sobre", icon: User },
+//   { href: "#projects", label: "Projetos", icon: Briefcase },
+//   { href: "#contact", label: "Contato", icon: Mail },
+// ];
+
 const navItems = [
   { href: "#home", label: "Início", icon: Home },
   { href: "#about", label: "Sobre", icon: User },

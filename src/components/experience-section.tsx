@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Building, Award } from "lucide-react";
-import profileData from "../../data/profile.json";
+
 
 const experiences = [
   {
