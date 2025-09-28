@@ -177,6 +177,17 @@
   ],
   "projects": [
     {
+      "id": "cnpjfy",
+      "name": "CNPJfy",
+      "description": "Interface inteligente para consulta de dados empresariais brasileiros. Next.js 14, PWA, i18n (PT/EN), cache offline, exportação CSV/JSON.",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "PWA", "i18n"],
+      "liveUrl": "https://cnpjfy.walisson.dev",
+      "githubUrl": "https://github.com/WalissonVinicius/cnpjfy",
+      "image": "/projects/cnpjfy.png",
+      "status": "Online",
+      "featured": true
+    },
+    {
       "id": "cashpilot",
       "name": "CashPilot",
       "description": "Controle de finanças pessoais simples: cadastre transações e acompanhe saldo. Vite/TS + Tailwind, backend Supabase.",
