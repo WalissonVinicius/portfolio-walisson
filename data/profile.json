@@ -177,6 +177,28 @@
   ],
   "projects": [
     {
+      "id": "simplex-solucoes",
+      "name": "Simplex Soluções Tecnológicas",
+      "description": "Site institucional da Simplex Soluções Tecnológicas. Apresenta soluções completas em infraestrutura, segurança, automação e desenvolvimento. Design moderno com tema escuro e interface responsiva.",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "liveUrl": "https://www.simplexsolucoes.com.br/",
+      "githubUrl": "#",
+      "image": "/projects/tela_site_simplex.png",
+      "status": "Online",
+      "featured": true
+    },
+    {
+      "id": "chat-spx",
+      "name": "CHAT-SPX",
+      "description": "Plataforma completa para gestão profissional de atendimento via WhatsApp. Marketplace integrado, múltiplas conexões, dashboards em tempo real e automação inteligente.",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "liveUrl": "https://chatspx.com.br/",
+      "githubUrl": "#",
+      "image": "/projects/tela-site-chatspx.png",
+      "status": "Online",
+      "featured": true
+    },
+    {
       "id": "cnpjfy",
       "name": "CNPJfy",
       "description": "Interface inteligente para consulta de dados empresariais brasileiros. Next.js 14, PWA, i18n (PT/EN), cache offline, exportação CSV/JSON.",
